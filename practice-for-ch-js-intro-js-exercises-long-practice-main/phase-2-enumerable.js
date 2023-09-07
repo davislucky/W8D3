@@ -38,13 +38,13 @@ Array.prototype.myReduce = function(callback, initialValue) {
   return acc;
 }
 
-console.log([1, 2, 3].myReduce(function(acc, el) {
-  return acc + el;
-}));
+// console.log([1, 2, 3].myReduce(function(acc, el) {
+//   return acc + el;
+// }));
 
-console.log([1, 2, 3].myReduce(function(acc, el) {
-  return acc + el;
-}, 25));
+// console.log([1, 2, 3].myReduce(function(acc, el) {
+//   return acc + el;
+// }, 25));
 
 
 
